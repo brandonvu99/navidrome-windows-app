@@ -1,0 +1,2 @@
+magick convert -background transparent -define 'icon:auto-resize=16,24,32,64,128,256' ./images/navidrome.svg ./images/navidrome.ico
+electron-packager . "Navidrome" --platform=win32 --arch=x64 --overwrite --icon=images/navidrome.ico

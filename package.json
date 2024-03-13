@@ -1,0 +1,20 @@
+{
+  "name": "navidrome-windows-app",
+  "version": "1.0.0",
+  "description": "Serve Navidrome inside an app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "brandonvu99",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.1",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "electron-config": "^2.0.0",
+    "electron-store": "^8.2.0"
+  }
+}
